@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Comic+Neue:wght@300;400;700&family=Dancing+Script:wght@600&family=Fascinate&family=Inter:wght@800&family=Noto+Sans:ital@0;1&family=Quicksand:wght@500&family=Smooch&family=Space+Grotesk&display=swap');
+body{
+  font-family: Quicksand;
+  margin: 0;
+  color: #333;
+  
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+ .navbar h1{
+  color: rgb(83, 221, 56);
+ }
+ .navbar .links{
+  margin-left: auto;
+ }
+ .navbar a{
+  margin-left: 16px;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(116, 238, 24);
+  color: rgb(248, 250, 248);
+  text-decoration: none;
+ }
+ .navbar a:hover{
+  color: rgb(20, 21, 21);
+ }
+ .content{
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+ }
+
+ .blog-preview{
+  padding:  10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #e7dbdb;
+}
+.blog-preview:hover{
+  box-shadow:1px 3px 5px rgba(0, 0, 0, 0.1);
+ }
+ .blog-preview h2{
+  font-size: 20px;
+  color: rgb(83, 221, 56);
+  margin-bottom: 8px;
+ }
+ .blog-preview a{
+
+   text-decoration: none;
+  }
+  .blog-details h2{
+    color: rgb(83, 221, 56);
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .blog-details div{
+    margin: 20px 0px;
+  }
+  .blog-details button{
+    background:rgb(116, 238, 24) ;
+    color:#fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+  }
+  .blog-details button:hover{
+    color: black;
+  }
+
+  /*Blog form*/
+  .create{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label{
+    text-align: left;
+    display: block;
+  }
+  .create h2{
+    color: rgb(116, 238, 24);
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create input, textarea, select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .create button{
+    background: rgb(116, 238, 24);
+    border: none;
+    border-radius: 7px;
+    padding: 9px 12px;
+    color: #fffdfd;
+    cursor: pointer;
+    
+  }
+  .create button:hover{
+    color: #333;
+  }
